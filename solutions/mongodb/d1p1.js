@@ -1,5 +1,10 @@
 [
   {
+    $sort: {
+      i: 1,
+    },
+  },
+  {
     $project: {
       _id: 0,
       cals: {
